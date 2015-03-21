@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>My Steroids App</title>
+
+  <link rel="stylesheet" href="/components/supersonic/css/supersonic.css">
+  <link rel="stylesheet" href="/stylesheets/application.css">
+  <link rel="import" href="/components/supersonic/components/import.html">
+
+  <script src="http://localhost/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+  <script src="/components/supersonic/supersonic.js"></script>
+  <script src="/components/webcomponentsjs/webcomponents.js"></script>
+
+  <script src="/components/tap/dist/tap.min.js"></script>
+
+  <script src="/scripts/browser-polyfill.js"></script>
+  <script src="/scripts/application-compiled.js"></script>
+</head>
+<body>
+
+<div class="padding">
+
+  <super-navbar>
+    <super-navbar-title>The E-Map</super-navbar-title>
+  </super-navbar>
+
+  <button id="record" class="button button-block button-assertive">Record</button>
+  <button id="stop" class="button button-block button-dark">Stop</button>
+
+</div>
+<script>
+document.addEventListener("deviceready", function() {
+  // supersonic.ui.dialog.alert('ready');
+  E.init();
+});
+</script>
+</body>
+</html>

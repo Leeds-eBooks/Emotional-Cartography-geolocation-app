@@ -1,0 +1,7 @@
+button {
+  height: 10em;
+  font-size: 2em !important;
+  &:active {
+    background-color: grey;
+  }
+}

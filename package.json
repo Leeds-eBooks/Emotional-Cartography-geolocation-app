@@ -1,0 +1,11 @@
+{
+  "name": "EMap",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-steroids": "1.x",
+    "grunt-babel": "~4.0.0",
+    "babel": "~4.7.16"
+  }
+}
